@@ -1,0 +1,257 @@
+food delivery app
+
+=== Google Fonts CDN ===
+
+/* Import Google Fonts (Lilita One, Oswald, Roboto) */
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+
+=== Home Section 1.0 ===
+
+Only
+
+$6.99
+
+New Burger
+
+With Onion
+
+Feugiat primis ligula risus auctor laoreet augue egestas mauris
+                viverra tortor in iaculis pretium at magna mauris ipsum primis
+                rhoncus feugiat
+
+Order Now
+
+
+
+
+
+=== Home Section 2.0 ===
+
+The burger tastes better when you eat it with your family
+
+Porta semper lacus cursus, feugiat primis ultrice a ligula risus
+                auctor an tempus feugiat dolor lacinia cubilia curae integer
+                orci congue and metus integer primis in integer metus
+
+Explore Full Menu
+ 
+
+
+
+
+=== Home Section 3.0 ===
+
+Nothing brings people together like a good burger
+
+Semper lacus cursus porta primis ligula risus tempus and
+                sagittis ipsum mauris lectus laoreet purus ipsum tempor enim
+                ipsum porta justo integer ultrice aligula lectus aenean magna
+                and pulvinar purus at pretium gravida
+
+Fringilla risus, luctus mauris orci auctor purus euismod
+                    pretium purus pretium ligula rutrum tempor sapien
+
+
+Quaerat sodales sapien euismod purus blandit
+
+Nemo ipsam egestas volute turpis dolores ut aliquam quaerat
+                    sodales sapien undo pretium a purus mauris
+
+
+
+
+=== Home Section 4.0 ===
+
+Download mobile App and
+
+save up to 20%
+
+ Aliquam a augue suscipit, luctus neque purus ipsum and neque
+                dolor primis libero tempus, blandit varius
+
+
+
+
+
+
+
+=== Home Section 5.0 ===
+
+" Etiam sapien sem at sagittis congue augue massa varius
+                  sodales sapien undo tempus dolor egestas magna suscipit magna
+                  tempus aliquet porta sodales augue suscipit luctus neque "
+
+BY AMELIE NEWLOVE
+ 
+
+
+
+
+=== Home Section 6.0 ===
+
+We Guarantee
+
+30 Minutes Delivery!
+
+Aliquam a augue suscipit, luctus neque purus ipsum neque undo
+              dolor primis libero tempus, blandit a cursus varius luctus neque
+              magna
+
+Call: 999-888-7777
+
+
+
+=== Footer Section 7.0 ===
+
+Location
+
+5505 Waterford District
+
+Dr, Miami, FL 33126
+
+United States
+
+Working Hours
+
+Mon-Fri: 9:00AM - 10:00PM
+
+Saturday: 10:00AM - 8:30PM
+
+Sunday: 12:00PM - 5:00PM
+
+
+
+Order Now
+
+
+Quaerat neque purus ipsum
+
+999-888-7777
+
+Follow Us
+
+Quaerat neque purus ipsum
+
+
+© 2023 <span>CODE4EDUCATION</span>. All Rights Reserved
+
+About Us
+
+Terms Of Use
+
+Privacy Policy
+
+
+/* Root Variables */
+:root {
+  /* Fonts Family */
+  --roboto-font: "Roboto", sans-serif;
+  --lilita-font: "Lilita One", cursive;
+  --oswald-font: "Oswald", sans-serif;
+
+  /* Colors */
+  --light-black: #333;
+  --light-white: #f7f7f7;
+  --light-red: #e3000e;
+  --light-grey: #f6f9fa;
+  --light-grey-2: #dddddd;
+  --white: #fff;
+  --yellow: #f7be27;
+  --grey: #757575;
+  --brown: #6f5e4d;
+  --bg-coffee: #642f21;
+}
+
+// Mock Data Cards
+const mockData = [
+  {
+    image: Pizza,
+    title: "Original",
+    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+  },
+  {
+    image: Salad,
+    title: "Qualty Foods",
+    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+  },
+  {
+    image: Delivery,
+    title: "Fastest Delivery",
+    paragraph: `Porta semper lacus cursus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lacinia cubilia curae integer orci congue and metus integer primis in integer metus`,
+  },
+  // Add more mock data objects as needed
+];
+
+
+// Mock Data Cards
+const mockData = [
+  {
+    id: "0001",
+    image: Image1,
+    title: "Crispy Chicken",
+    paragraph: "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+    rating: 5,
+    price: 99.15,
+  },
+  {
+    id: "0002",
+    image: Image2,
+    title: "Ultimate Bacon",
+    paragraph: "House patty, cheddar cheese, bacon, onion, mustard",
+    rating: 4.5,
+    price: 99.32,
+  },
+  {
+    id: "0003",
+    image: Image3,
+    title: "Black Sheep",
+    paragraph: "American cheese, tomato relish, avocado, lettuce, red onion",
+    rating: 4,
+    price: 69.15,
+  },
+  {
+    id: "0004",
+    image: Image4,
+    title: "Vegan Burger",
+    paragraph: "House patty, cheddar cheese, bacon, onion, mustard",
+    rating: 3.5,
+    price: 99.25,
+  },
+  {
+    id: "0005",
+    image: Image5,
+    title: "Double Burger",
+    paragraph: "2 patties, cheddar cheese, mustard, pickles, tomatoes",
+    rating: 3.0,
+    price: 59.25,
+  },
+  {
+    id: "0006",
+    image: Image6,
+    title: "Turkey Burger",
+    paragraph: "Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    rating: 3,
+    price: 79.18,
+  },
+  {
+    id: "0007",
+    image: Image7,
+    title: "Smokey House",
+    paragraph: "patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    rating: 2.5,
+    price: 99.19,
+  },
+  {
+    id: "0008",
+    image: Image8,
+    title: "Classic Burger",
+    paragraph: "cheddar cheese, ketchup, mustard, pickles, onion",
+    rating: 2.0,
+    price: 89.12,
+  },
+  // Add more mock data objects as needed
+];
