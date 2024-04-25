@@ -5,7 +5,7 @@ import "../../styles/Home.css";
 import Section2 from "./Section2.jsx";
 import Section3 from "./Section3.jsx";
 import Section4 from "./Section4.jsx";
-import Section5 from "./section5.jsx";
+import Section5 from "./Section5.jsx";
 import Section6 from "./Section6.jsx";
 import Section7 from "./Section7.jsx";
 
